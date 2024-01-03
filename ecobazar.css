@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-container {
+    margin: 0;
+    padding: 0;
+}
+
+.header-row {
+    height: 70px;
+}
+
+.heading {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.latest-news-svg,
+.search-svg {
+    height: 20px;
+    width: 20px;
+    color: rgb(185, 197, 209);
+}
+
+.latest-news-svg-text {
+    font-size: 12px;
+    color: rgb(111, 134, 155);
+
+}
+
+.heart-svg {
+    height: 40px;
+    width: 40px;
+    border-right: 1px solid rgb(214, 208, 208);
+    padding-right: 5px;
+}
+
+.popular-categories-font {
+    font-size: 13px;
+}
+
+.icon2 {
+    height: 30px;
+    width: 30px;
+    color: green;
+}
+
+.all-cards {
+    margin: 4px;
+    border: 0px !important;
+    transition: all .2s ease;
+}
+
+.all-cards:hover {
+    box-shadow: 0px 1px 15px 1px rgb(116, 165, 116) !important;
+    scale: 1.05;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.all-cards:hover svg {
+    height: 30px !important;
+    width: 30px !important;
+    background-color: green;
+    color: rgb(255, 255, 255) !important;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 50% !important;
+}
+
+.apple-font {
+    font-size: 25px;
+
+}
+
+.apple-line-height {
+    line-height: 15px;
+}
+
+.feedback {
+    color: lightslategray;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.harry-up-text {
+    font-size: 12px;
+    color: lightslategray;
+    margin-bottom: 2px;
+
+}
+
+.time-end {
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.time-days {
+    font-size: 12px;
+    color: lightslategray;
+
+}
+
+.all-cards:hover .spanh {
+    color: green;
+}
+
+.all-cards:hover h6 {
+    color: green;
+}
+
+.navbar {
+    text-decoration: none;
+}
+
+.img1 {
+    height: 426px;
+    width: 862px;
+}
+
+.img1s {
+    height: 215px;
+    width: 422px;
+    object-fit: cover;
+}
+
+.content1 {
+    background-color: rgba(48, 47, 47, 38%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px
+}
+
+.content2 {
+    margin-top: 100px;
+}
+
+.after {
+    background-image: url("3.png");
+    height: 215px;
+    width: 357px;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+
+.bbtn {
+    color: #08fd08;
+}
+
+.bbtn:hover {
+    color: #08fd08;
+}
+
+
+.img2s {
+    height: 205px;
+    width: 355px;
+    opacity: 100%;
+}
+
+.bar {
+    box-shadow: 0px 5px 15px 3px rgba(172, 167, 163, 0.3);
+    width: auto;
+}
+
+.svg-shipping {
+    display: inline-block;
+}
+
+.free-shipping {
+    display: inline-block;
+    right: 0;
+}
+
+.light-text {
+    color: rgb(90, 100, 105);
+    font-size: 12px;
+}
+
+.a-i {
+    font-size: 12px;
+}
+
+.orange {
+    background-image: url(p2.png);
+}
+
+.products {
+    height: 24px;
+    width: 40px;
+}
+
+
+.big-product-card {
+    height: 500px;
+}
+
+.small-cards {
+    height: 132px;
+}
+
+.str {
+    font-size: 10px;
+    color: rgb(241, 170, 39);
+}
+
+.card-text {
+    height: 189px;
+    width: 256px;
+}
+
+.tag1 {
+    top: 10px;
+    left: 10px;
+}
+
+.best-deal1 {
+    top: 50px;
+    left: 66px;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.best-deal2 {
+    top: 50px;
+    left: 94px;
+}
+
+.best-deal3 {
+    top: 50px;
+    left: 73px;
+}
+
+.tag2 {
+    top: 10px;
+    left: 90px;
+}
+
+.i-size {
+    font-size: 30px;
+}
+
+.sv-size {
+    height: 30px;
+    width: 30px;
+}
+
+.btn-long {
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.landscp-cont {
+    right: 90px;
+    top: 70px;
+}
+
+.landscape-text-size {
+    font-size: 12px;
+}
+
+.ltest-card {
+    width: 250px;
+}
+
+.latest-card {
+    margin: 4px;
+    border: 0px !important;
+    transition: all .2s ease;
+    width: 360px;
+}
+
+.img-size {
+    height: 288px;
+    border-radius: 5px;
+
+}
+
+.home-section {
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    border-radius: 4px;
+
+}
+
+.ship-fsize {
+    font-size: 12px;
+}
+
+.ctg-card {
+    width: 13rem;
+}
+
+.fat-free-btn {
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.off64 {
+    border-radius: 5px;
+}
+
+.off64-btn {
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.user-svg {
+    color: rgb(175, 243, 175);
+}
+
+.mango-font {
+    font-family: 'Supermercado One', sans-serif;
+    color: lightslategray;
+}
+
+.food-font {
+    font-family: 'Supermercado One', sans-serif;
+    color: lightslategray;
+
+
+}
+
+.foods {
+    font-family: 'Luckiest Guy', cursive;
+    color: lightslategray;
+
+}
+
+.bookoff {
+    font-family: 'Norican', cursive;
+    color: lightslategray;
+
+}
+
+.gseries {
+    font-family: 'Saira Stencil One', sans-serif;
+    color: lightslategray;
+
+}
+
+.news-about:hover {
+    color: green;
+}
+
+.subscribe-text {
+    font-size: 11px;
+}
+
+.ecobazar-font {
+    font-size: 11px;
+    color: lightslategrey;
+}
+
+.contect-info {
+    font-size: 12px;
+}
+
+.money-transfer-icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.footer-icon {
+    padding-left: 73px;
+    padding-right: 65px;
+}
