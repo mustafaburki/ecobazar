@@ -1,15 +1,63 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
-.first-container {
+* .first-container {
     margin: 0;
     padding: 0;
+
+}
+.for-sm-device{
+    display: none;
+}
+
+.top-header-border {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #b8b2b2;
+    height: 42px;
+}
+
+.lang-select {
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #666666;
+}
+
+.usd-border {
+    padding-right: 5px;
+    border-right: 1px solid #CCCCCC;
+}
+
+.sign-butn {
+    font-size: 12px;
+    color: #666666;
+
 }
 
 .header-row {
     height: 70px;
+}
+
+.location-svg {
+    width: 15px;
+    height: 18px;
+    color: #666666;
+    margin-right: 5px;
+}
+
+.top-location {
+    padding-top: 12px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #666666;
 }
 
 .heading {
@@ -19,51 +67,341 @@ body {
 
 .latest-news-svg,
 .search-svg {
+    margin-left: 10px;
+    margin-right: 3px;
     height: 20px;
     width: 20px;
-    color: rgb(185, 197, 209);
+    /* color: rgb(185, 197, 209); */
+    color: #1A1A1A;
+
 }
 
 .latest-news-svg-text {
+    margin-right: 16;
     font-size: 12px;
     color: rgb(111, 134, 155);
-
 }
-
 .heart-svg {
     height: 40px;
     width: 40px;
-    border-right: 1px solid rgb(214, 208, 208);
+    padding-right: 5px;
+}
+
+.hr-tag {
+    width: 24px;
+    font-weight: 900;
+    rotate: 90deg;
+}
+
+
+.zoom-svg {
+    top: 7px;
+    left: 10px;
+    z-index: 999;
+    height: 20px;
+    width: 20px;
+}
+
+.search-bar-padding {
+    padding-left: 40px;
+    margin-left: 8px;
+}
+.heart-svg2 {
+    height: 40px;
+    width: 40px;
     padding-right: 5px;
 }
 
 .popular-categories-font {
     font-size: 13px;
 }
+.top-search-butn {
+    background-color: #00B207 !important;
+    color: white !important;
+    border-top-right-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+}
+
+.shoping-tray {
+    font-size: 11px;
+    color: #4D4D4D;
+}
+.shoping-tray-price {
+    color: #1A1A1A;
+    font-size: 14px;
+}
+.tag-div {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    top: -3px;
+    right: 3px;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    background-color: #2C742F;
+}
+
+.nav-items-text {
+    color: #999999 !important;
+}
+.shop-now-butn {
+    color: #00B207;
+    border-radius: 53px;
+    width: 191px;
+    height: 51px;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2;
+}
+
+.shop-now-butn:hover {
+    color: #00B207;
+}
+
+.summer-butn {
+    color: #00B207;
+}
+
+.summer-butn:hover {
+    color: #00B207;
+}
 
 .icon2 {
     height: 30px;
     width: 30px;
-    color: green;
+    color: #00B207;
+}
+
+.view-all-butn {
+    color: #00B207 !important;
+}
+
+.arrow-butn:hover {
+    background-color: #00B207 !important;
+    color: white !important;
+}
+
+.arroww-butn {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.arroww-butn {
+    background-color: #00B207;
+    color: white !important;
+}
+
+.arroww-butn:hover {
+    background-color: white;
+    color: rgb(51, 48, 48) !important;
+
+}
+
+.instagram-svgg {
+    display: none;
+    height: 171px;
+    width: 154px;
+
+    font-size: 40px;
+    color: white;
+    background-color: #2B572ECC;
+}
+
+.bg-insta {
+    top: 60px;
+    left: 60px;
+    z-index: 555;
+}
+
+.insta-hvr:hover .instagram-svgg {
+    display: block;
+
+}
+
+.subscrib-butn {
+    background-color: #00B207 !important;
+    font-size: 14px;
+
+}
+
+.fb-svg {
+    top: 9px;
+    left: 10px;
+    height: 18px;
+    width: 18px;
+    color: #1A1A1A !important;
+}
+.social-icons-div{
+    width: 40px;
+    height: 40px;
+}
+
+.big-product-card {
+    width: 444px;
+    /* min-width: 100%; */
+    height: 520px;
+    padding: 0px !important;
+}
+
+.cards-of-big {
+    height: 260px;
+    width: 222px !important;
+    padding: 0px !important;
+}
+
+.cards-of-bigs {
+    height: 260px;
+    width: 222px !important;
+    padding: 0px !important;
+}
+.coool{
+    min-width: 100%;
+}
+.money-cards-icons{
+    width: 277px;
+    height: 32px;
+    /* background-color: #1A1A1A; */
+    gap: 8px;
+}
+.logo{
+    background-color:#1A1A1A ;
+    width: 45px;
+    height: 31.76px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999999;
+}
+.logoo{
+    background-color:#1A1A1A ;
+    width: 70px;
+    height: 33px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 1px solid #999999;
+}
+.secure{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    color: #FFFFFF;
+
+}
+.lock-img{
+    top: 4px;
+    left: 5px;
+    width: 11px;
+    height: 11px;
+
+}
+.payments{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    top: 17px;
+    left: 5px;
+  
 }
 
 .all-cards {
-    margin: 4px;
-    border: 0px !important;
+    border: 1px solid #E6E6E6 !important;
     transition: all .2s ease;
 }
 
+.second-all-card {
+    width: 264px;
+    height: 290px;
+    border: 1px solid #E6E6E6 !important;
+    transition: all .2s ease;
+}
+
+.off37 {
+    background-color: #00B207 !important;
+    border-radius: 53px;
+    color: white;
+    font-size: 12px;
+    padding: 12px 25px;
+
+}
+
+.on-card-svg {
+    display: none;
+    top: 20px;
+    background-color: white;
+    right: 20px;
+}
+
+.bast-deal-txt {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sle-of-month {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.on-card-svg-eye {
+    display: none;
+    top: 60px;
+    right: 20px;
+    background-color: #F2F2F2 !important;
+}
+
+.second-all-card:hover .on-card-svg-eye {
+    display: block !important;
+    background-color: #F2F2F2 !important;
+}
+
+.second-all-card:hover .on-card-svg {
+    display: block !important;
+    background-color: #F2F2F2 !important;
+}
+
 .all-cards:hover {
-    box-shadow: 0px 1px 15px 1px rgb(116, 165, 116) !important;
+    box-shadow: 0px 0px 12px 0px #20B52652 !important;
     scale: 1.05;
     z-index: 999;
     cursor: pointer;
 }
 
+.second-all-card:hover {
+    box-shadow: 0px 0px 12px 0px #20B52652 !important;
+    scale: 1.05;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.second-all-card:hover svg {
+    height: 40px !important;
+    width: 40px !important;
+    background-color: #00B207;
+    color: rgb(255, 255, 255) !important;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 50% !important;
+
+}
+
 .all-cards:hover svg {
-    height: 30px !important;
-    width: 30px !important;
-    background-color: green;
+    height: 40px !important;
+    width: 40px !important;
+    background-color: #00B207 !important;
     color: rgb(255, 255, 255) !important;
     padding: 6px;
     font-weight: bold;
@@ -89,7 +427,6 @@ body {
     font-size: 12px;
     color: lightslategray;
     margin-bottom: 2px;
-
 }
 
 .time-end {
@@ -101,10 +438,13 @@ body {
 .time-days {
     font-size: 12px;
     color: lightslategray;
-
 }
 
-.all-cards:hover .spanh {
+.read-more-txt {
+    color: #00B207 !important;
+}
+
+.all-cards:hover .item-names {
     color: green;
 }
 
@@ -123,12 +463,16 @@ body {
 
 .img1s {
     height: 215px;
-    width: 422px;
+    width: 358px;
     object-fit: cover;
 }
 
+.home-banner-item {
+    font-size: 13px;
+}
+
 .content1 {
-    background-color: rgba(48, 47, 47, 38%);
+    background-color: #002603CC;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -153,14 +497,26 @@ body {
     border-radius: 5px;
 }
 
+.banner-big-img{
+    object-fit: cover;
+    height: 445px;
+    width: 736px;
+}
+
 .bbtn {
-    color: #08fd08;
+    color: #08fd08 !important;
+}
+.middle-card:hover{
+    box-shadow: 0px 20px 50px 0px #00000014;
 }
 
-.bbtn:hover {
-    color: #08fd08;
+.insta-hvr:hover .pictures {
+    background-color: #2B572ECC;
 }
 
+.or-txt {
+    color: #808080;
+}
 
 .img2s {
     height: 205px;
@@ -169,12 +525,14 @@ body {
 }
 
 .bar {
-    box-shadow: 0px 5px 15px 3px rgba(172, 167, 163, 0.3);
-    width: auto;
+    box-shadow: 0px 8px 40px 0px #00260314;
+    width: 1130px;
+    padding: 40px;
 }
 
 .svg-shipping {
     display: inline-block;
+
 }
 
 .free-shipping {
@@ -184,7 +542,6 @@ body {
 
 .light-text {
     color: rgb(90, 100, 105);
-    font-size: 12px;
 }
 
 .a-i {
@@ -197,12 +554,18 @@ body {
 
 .products {
     height: 24px;
-    width: 40px;
+    width: 30px;
 }
 
+.apple-big-img {
+    height: 55%;
+    object-fit: cover;
+}
 
-.big-product-card {
-    height: 500px;
+.img-resize {
+    height: 60% !important;
+    width: 100% !important;
+    object-fit: cover !important;
 }
 
 .small-cards {
@@ -260,11 +623,13 @@ body {
 .btn-long {
     border-radius: 30px;
     font-size: 12px;
+    background-color: #00B207 !important;
+    padding: 10px 28px;
 }
 
 .landscp-cont {
-    right: 90px;
-    top: 70px;
+    right: 120px;
+    top: 40px;
 }
 
 .landscape-text-size {
@@ -285,7 +650,6 @@ body {
 .img-size {
     height: 288px;
     border-radius: 5px;
-
 }
 
 .home-section {
@@ -293,8 +657,7 @@ body {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;
-    border-radius: 4px;
-
+    border-radius: 8px;
 }
 
 .ship-fsize {
@@ -305,19 +668,52 @@ body {
     width: 13rem;
 }
 
+.best-deal-butn {
+    color: #00B207 !important;
+    border-radius: 53px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.fatfree {
+    margin: 5px;
+}
+
+.banner-btn {
+    width: 108px;
+    height: 38px;
+    background-color: #FF8A00 !important;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+
 .fat-free-btn {
-    border-radius: 30px;
-    font-size: 12px;
+    color: #00B207 !important;
+    border-radius: 53px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
 }
 
 .off64 {
     border-radius: 5px;
+    color: #FCC900;
+    padding: 8px;
 }
 
 .off64-btn {
-    border-radius: 30px;
-    font-size: 12px;
+    color: #00B207 !important;
+    border-radius: 53px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
 }
+.lg-row{
+    margin: 0px;
+}
+
 
 .circle {
     border-radius: 50%;
@@ -327,47 +723,93 @@ body {
     color: rgb(175, 243, 175);
 }
 
-.mango-font {
-    font-family: 'Supermercado One', sans-serif;
-    color: lightslategray;
-}
-
-.food-font {
-    font-family: 'Supermercado One', sans-serif;
-    color: lightslategray;
-
-
-}
-
-.foods {
-    font-family: 'Luckiest Guy', cursive;
-    color: lightslategray;
-
-}
-
-.bookoff {
-    font-family: 'Norican', cursive;
-    color: lightslategray;
-
-}
-
-.gseries {
-    font-family: 'Saira Stencil One', sans-serif;
-    color: lightslategray;
-
-}
-
 .news-about:hover {
     color: green;
 }
 
 .subscribe-text {
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #999999;
 }
+
+.subscrib-butn{
+    top: 0px;
+    left: 278px;
+    width: 162px;
+    height: 34px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 43px;
+}
+
+.news-letter {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #1A1A1A;
+    width: 305px;
+    height: 36px;
+}
+
+.email-input-bar{
+    width: 440px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #808080;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #E6E6E6;
+}
+.social-icons{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.social-icons:hover{
+    background-color: #00B207;
+    border-radius: 50%;
+}
+
 
 .ecobazar-font {
     font-size: 11px;
     color: lightslategrey;
+}
+
+.my-acocunt-list {
+    padding-left: 0px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    list-style-type: none;
+    text-decoration: none !important;
+}
+
+.my-acocunt-list,
+ul,
+li,
+.a-link {
+    text-decoration: none;
+    color: #999999;
+}
+
+
+.account-cart-txt {
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.ecobazar-footer-font {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #808080;
 }
 
 .contect-info {
@@ -379,7 +821,2150 @@ body {
     margin-right: 10px;
 }
 
-.footer-icon {
-    padding-left: 73px;
-    padding-right: 65px;
+/* ===============================(max-width:1440px) and (min-width:1367px) ============================*/
+
+@media screen and (max-width:1440px) {
+
+   
+    .home-section {
+        background-size: cover;
+    }
+
+    .after {
+        width: 359px; 
+    }
+
+    .bar {
+        width: 1251px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .papular-categary-row{
+        justify-content: center !important;
+    }
+
+    .ctg-card {
+        width: 12rem;
+        margin-left: 0px;
+        margin-right: 8px;
+    }
+
+    .big-product-card {
+        width: 550px;
+        height: 520px;
+        padding: 0px !important;
+    }
+    .apple-font {
+        font-size: 18px;
+    }
+    .big-product-cardbody{
+        padding-top: 24px !important;
+    }
+
+    .cards-of-big {
+        height: 260px;
+        width: 248px !important;
+        padding: 0px !important;
+    }
+    .row-width{
+        width: 1335px;
+    }
+    .landscape{
+        width: 1335px;
+    }
+    .landscp-cont {
+       right: 10px;
+       top: 40px;
+    }
+    .latest-card {
+        width: 430px;
+    }
+    .deal-img{
+        width: 438px;
+        height: 500px;
+    }
+    .best-deal1{
+        top: 60px;
+        left: 87px;
+    }
+    .best-deal2{
+       top: 60px;
+       left: 114px;
+    }
+    .best-deal3{
+       top: 60px;
+       left: 96px;
+    }
+    .latest-news-svg-text{
+        font-size: 14px;
+    }
+    .circle-butn{
+        padding-left: 2px;
+    }
+    .client-cards{
+        height: 288px;
+    }
+    .news-letter {
+        margin-bottom: 5px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 40px;
+        width: 309px;
+        height: 48px;
+    }
+    .email-input-bar {
+        width: 470px;
+        height: 44px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        padding-left: 30px;
+        padding-right: 24px;
+    }
+    .subscrib-butn {
+        top: 0px;
+        left: 306px;
+        width: 162px;
+        height: 44px;
+        border-radius: 43px;
+        font-size: 16px;
+    }
+    .lg-row{
+       margin-left: 30px;
+    }
+    .coool{
+       width: 1335px;
+    }
+    .instagram-svgg{
+        width: 198px;
+    }
+    .bg-insta{
+        left: 77px;
+    }
+}
+@media screen and (max-width:1399px) {
+    .home-section {
+        background-size: cover;
+    }
+
+    .after {
+        width: 360px; 
+    }
+
+    .bar {
+        width: 1135px;  
+    }
+
+    .ctg-card {
+        width: 12rem;
+        margin-left: 0px;
+        margin-right: 8px;
+    }
+
+    .big-product-card {
+        width: 478px;
+        height: 520px;
+        padding: 0px !important;
+    }
+    .item-names{
+        font-size: 14px;
+    }
+
+    .cards-of-big {
+        height: 260px;
+        width: 208px !important;
+        padding: 0px !important;
+    }
+    .cards-of-bigs{
+        width: 260px !important;
+    }
+    .row-width{
+        width: 1142px;
+    }
+    .landscape{
+        width: 1142px;
+    }
+    .latest-card {
+        width: 380px;
+    }
+    .client-cards{
+        width: 372px;
+        height: 328px;
+    }
+  
+    .instagram-cards {
+        width: 165px;
+    }
+    .deal-img{
+        width: 379px;
+        height: 470px;
+    }
+    .best-deal1{
+        top: 40px;
+        left: 58px;
+    }
+    .best-deal2{
+       top: 40px;
+       left: 80px;
+    }
+    .best-deal3{
+       top: 40px;
+       left: 68px;
+    }
+    .lg-row{
+       margin-left: 30px;
+    }
+    .coool{
+       width: 1145px;
+    }
+    .instagram-svgg{
+        width: 165px;
+    }
+    .bg-insta{
+        left: 66px;
+    }
+
+
+
+
+
+
+
+
+
+    
+}
+@media screen and (max-width:1199px) {
+
+
+}
+/* and (min-width:1200px) */
+/* ===============================(max-width:1199px) and (min-width:1025px) ============================*/
+@media screen and (max-width:1199px) {
+    .img1s{
+        height: 179px;
+        width: 296px;
+    }
+    .after{
+        height: 179px;
+        width: 296px;
+    }
+    .fresh-healthy-text{
+        font-size: 20px;
+    }
+    .sale-upto-text{
+        font-size: 14px;
+    }
+    .banner-btn {
+        width: 93px;
+        height: 34px;
+        margin-left: 6px;
+    }
+    .your-order-txt{
+        font-size: 13px;
+    }
+    .content2{
+        margin-left: 0px !important;
+    }
+    .shop-now-butn {
+        width: 160px;
+        height: 38px;
+        padding: 18px 28px;
+        gap: 16px;
+        font-size: 14px;
+    }
+    .special-product-text{
+        font-size: 18px !important;
+    }
+    .bar {
+        box-shadow: 0px 8px 40px 0px #00260314;
+        width: 950px;
+        padding: 5px;
+    }
+    .svg-shipping svg{
+        height: 25px;
+        width: 25px;
+    }
+    .ship-fsize {
+        font-size: 11px;
+    }
+    .popular-categories-heading{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .heading {
+       margin-top: 35px;
+       margin-bottom: 8px;
+    }
+    .ctg-card {
+        width: 11rem;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .papular-categary-row{
+        justify-content: space-between !important;
+    }
+    .deal-img{
+        width: 300px;
+        height: 410px;
+    }
+    .bast-deal-txt{
+        margin-bottom: 5px;
+    }
+    .best-deal1{
+        top: 40px;
+        left: 70px;
+    }
+    .best-deal2{
+        top: 40px;
+        left: 80px;
+    }
+    .best-deal3{
+        top: 40px;
+        left: 80px;
+    }
+    .sle-of-month {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .time{
+        font-size: 15px;
+    }
+    .time-hours{
+        font-size: 12px;
+    }
+    .fat-free-txt{
+        font-size: 13px;
+    }
+    .best-deal-butn {
+        font-size: 12px;
+        padding: 8px 16px;
+        font-weight: 600;
+    }
+
+    .fat-free-btn {
+        font-size: 12px;
+        padding: 8px 16px;
+        font-weight: 600;
+    }
+    .off64{
+        padding: 6px;
+    }
+    .off64-btn{
+        font-size: 12px;
+        padding: 8px 16px;
+        font-weight: 600;
+    }
+    .big-product-card {
+        width: 400px;
+        height: 472px;
+        padding: 0px !important;
+    }
+     .cards-of-big {
+        height: 236px;
+        width: 187px !important;
+        padding: 0px !important;
+    }
+    .item-names{
+        font-size: 12px;
+    }
+    .btn-long {
+        border-radius: 30px;
+        font-size: 11px;
+        padding: 7px 24px;
+    }
+    .apple-line-height {
+        line-height: 13px;
+        margin-bottom: 13px;
+    }
+    .offer-text{
+        font-size: 14px;
+    }
+    .apple-font{
+        margin-bottom: 0px;
+    }
+    .landscp-cont{
+        top: 30px;
+        right: 30px;
+    }
+    .off37-text{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .off37 {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .hot-deal-heading{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .latest-card{
+        width: 320px;
+    }
+    .latest-news-svg{
+        height: 17px;
+        width: 17px;
+    }
+    .read-more-txt{
+        font-size: 14px;
+    }
+    .arroww-butn {
+        font-size: 14px !important;
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        padding: 12px !important;
+    }
+    .arrow-butn {
+        font-size: 14px !important;
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        padding: 12px !important;
+    }
+    .client-cards{
+        width: 312px !important;
+    }
+    .user-name{
+        font-size: 14px !important;
+    }
+    .instagram-cards{
+        height: 150px !important;
+        width: 124px !important;
+    }
+    .instagram-svgg{
+        height: 150px;
+        width: 124px;
+        font-size: 35px;
+    }
+    .bg-insta {
+        top: 51px;
+        left: 45px;
+    }
+    .email-input-bar{
+        width: 378px;
+    }
+    .subscrib-butn { 
+        left: 260px;
+        width: 115px;
+    }
+    .footer-column{
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .footer-ecobzr-txt{
+        font-size: 22px !important;
+        font-weight: 600;
+    }
+    .contect-info{
+        font-size: 11px !important;
+    }
+    .ecobazar-footer-font{
+        font-size: 12px;
+    }
+    .footer-other-heading-txt{
+        font-size: 18px;
+    }
+    .a-link{
+        font-size: 12px;
+    }
+    .account-cart-txt{
+        font-size: 12px;
+    }
+    .logo{
+        width: 40px;
+        height: 26.76px;
+    }
+    .logoo{
+        width: 64px;
+        height: 30px;
+    }
+    .payments{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 12px;
+        top: 14px;
+        left: 5px;
+    }
+    .lock-img{
+        top: 3px;
+        left: 4px;
+        width: 10px;
+        height: 10px;
+    }
+    .secure{
+        margin-top: 3px;
+        margin-left: 8px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;    
+    }
+    .phone-reciver-svg{
+        height: 21px !important;
+        width: 21px !important;
+    }
+    .phone-number{
+        font-size: 14px;
+    }
+}
+/* and (min-width:1025px) */
+/* ===============================(max-width:1024px) and (min-width:992px) ============================*/
+@media screen and (max-width:1024px) {
+    .top-location{
+        padding-top: 6px;
+        font-size: 11px;
+    }
+    .location-svg{
+        height: 17px;
+        width: 14px;
+        margin-right: 3px;
+    }
+    .lang-select {
+        font-size: 11px;
+    }
+    .sign-butn {
+        font-size: 11px;
+    }
+    .top-header-border{
+        margin-bottom: 5px;
+        height: 35px;
+    }
+    .ecobazar-logo{
+        font-size: 22px !important;
+    }
+    .main-ecobzr-heading{
+        font-size: 24px !important;
+    }
+    .content2{
+        margin-top: 80px;
+        margin-left: 4px !important;
+    }
+    .fresh-healthy-text{
+        font-size: 20px;
+    }
+    .sale-upto-text{
+        font-size: 14px;
+    }
+    .banner-btn{
+        width: 92px;
+        height: 33px;
+    }
+    .your-order-txt{
+        font-size: 14px;
+    }
+    .shop-now-butn{
+        font-size: 13px;
+        width: 164px;
+        height: 40px;
+    }
+    .img1s{
+        height: 180px;
+    }
+    .after{
+        height: 180px;
+        width: 299px;
+    }
+    .phone-reciver-svg{
+        height: 22px;
+        width: 22px;
+    }
+    .phone-number{
+        font-size: 14px;
+    }
+    .special-product-text{
+        font-size: 20px !important;
+    }
+    .bar{
+        padding: 16px;
+        width: 953px;
+    }
+    .bar-svgs{
+        height: 32px !important;
+        width: 32px !important;
+    }
+    .heading{
+        margin-top: 20px;
+    }
+    .popular-categories-heading{
+        font-size: 16px;
+    }
+    .view-all-butn{
+        font-size: 12px;
+    }
+    .ctg-card{
+        width: 11rem;
+    }
+    .hot-deal-heading{
+        font-size: 16px;
+    }
+    .item-names{
+        font-size: 12px;
+    }
+    .fruit-price{
+        font-size: 13px;
+    }
+    .card-text{
+        height: 134px;
+    }
+    .second-all-card{
+        height: 247px;
+    }
+    .deal-img{
+        width: 310px;
+        height: 430px;
+    }
+    .sle-of-month {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .best-deal-butn {
+        font-size: 12px;
+        padding: 7px 12px;
+        font-weight: 600;
+    }
+    .time {
+        font-size: 16px;
+    }
+    .time-hours{
+        font-size: 12px;
+    }
+    .best-deal1{
+        top: 40px;
+        left: 75px;
+    }
+    .fat-free-txt{
+        font-size: 12px;
+    }
+    .fat-free-btn {
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 7px 12px;
+        font-weight: 600;
+    }
+    .off64{
+        padding: 6px;
+    }
+    .off64-btn{
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 7px 12px;
+        font-weight: 600;
+    }
+    .best-deal2{
+        top: 40px;
+        left: 98px;
+    }
+    .best-deal3{
+        top: 40px;
+        left: 96px;
+    }
+    .big-product-card {
+        width: 369px;
+        height: 450px;
+        padding: 0px !important;
+    }
+    .cards-of-big {
+        height: 225px;
+        width: 187px !important;
+        padding: 0px !important;
+    }
+    .i-size{
+        font-size: 22px;
+    }
+    .btn-long {
+        border-radius: 30px;
+        padding: 5px 24px;
+    }
+    .offer-text{
+        font-size: 13px;
+    }
+    .apple-line-height{
+        margin-bottom: 2px;
+    }
+    .time-end {
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .time-days{
+        font-size: 11px;
+    }
+    .feedback{
+        text-transform:none;
+        font-size: 7px;
+    }
+    .landscp-cont{
+        top: 30px;
+        right: 30px;
+    }
+    .off37-text{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .off37 {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .latest-card{
+        width: 320px;
+    }
+    .latest-news-svg{
+        height: 17px;
+        width: 17px;
+    }
+    .news-about{
+        font-size: 14px;
+    }
+    .read-more-txt{
+        font-size: 13px;
+    }
+    .client-testimonials-div{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .arrow-butn {
+        font-size: 13px !important;
+        height: 36px;
+        width: 36px;
+        padding: 11px !important;
+    }
+    .arroww-butn {
+        font-size: 13px !important;
+        height: 36px;
+        width: 36px;
+        padding: 11px !important;
+    }
+    .client-cards{
+        width: 312px !important;
+        height: 350px !important;
+    }
+    .user-svg{
+        height: 20px !important;
+        width: 20px !important;
+    }
+    .client-testimonials-card-txt{
+        font-size: 13px;
+    }
+    .user-name{
+        font-size: 13px !important;
+    }
+    .customer-txt{
+        font-size: 13px;
+    }
+    .client-card-row{
+        padding-bottom: 20px !important;
+    }
+    .decoration-text{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .step{
+        height: 60px;
+        width: 70px;
+    }
+    .bookoff{
+        height: 60px;
+        width: 98px;
+    }
+    .instagram-svgg{
+        height: 150px;
+        width: 124px;
+        font-size: 35px;
+    }
+    .instagram-cards{
+        height: 150px !important;
+        width: 124px !important;
+    }
+    .news-letter {
+        margin-bottom: 4px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 36px;
+        width: 305px;
+        height: 36px;
+    }
+    .subscribe-text {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .email-input-bar{
+        width: 378px;
+    }
+    .subscrib-butn { 
+        left: 275px;
+        width: 100px;
+    }
+    .footer-column{
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .footer-ecobzr-txt{
+        font-size: 20px !important;
+        font-weight: 600;
+    }
+    .ecobazar-footer-font{
+        font-size: 12px;
+    }
+    .contect-info{
+        font-size: 11px !important;
+    }
+    .footer-other-heading-txt{
+        font-size: 18px;
+    }
+    .a-link{
+        font-size: 12px;
+    }
+    .account-cart-txt{
+        font-size: 12px;
+    }
+    .logo{
+        width: 40px;
+        height: 26.76px;
+    }
+    .logoo{
+        width: 64px;
+        height: 30px;
+    }
+    .payments{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 12px;
+        top: 14px;
+        left: 5px;
+    }
+    .lock-img{
+        top: 3px;
+        left: 4px;
+        width: 10px;
+        height: 10px;
+    }
+    .secure{
+        margin-top: 3px;
+        margin-left: 8px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;    
+    }
+}
+/* and (min-width:992px)  */
+/* ===============================(max-width:991px) and (min-width:768px) ============================*/
+@media screen and (max-width:991px) {
+    .top-location{
+        padding-top: 6px;
+        font-size: 11px;
+    }
+    .location-svg{
+        height: 17px;
+        width: 14px;
+        margin-right: 3px;
+    }
+    .lang-select {
+        font-size: 11px;
+    }
+    .sign-butn {
+        font-size: 11px;
+    }
+    .top-header-border{
+        margin-bottom: 5px;
+        height: 35px;
+    }
+    .ecobazar-logo{
+        font-size: 22px !important;
+    }
+    .main-ecobzr-heading{
+        font-size: 20px !important;
+    }
+    .search-bar-padding {
+        padding-left: 42px;
+        margin-left: 8px;
+        height: 30px !important;
+    }
+    .zoom-svg {
+        top: 4px;
+        left: 8px;
+    }
+    .top-search-butn {
+        height: 30px;
+        width: 76px;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .heart-svg{
+        height: 35px;
+        width: 35px;
+    }
+    .heart-svg2{
+        height: 35px;
+        width: 35px;
+    }
+    .a-i a{
+        font-size: 12px;
+    }
+    .phone-reciver-svg{
+        height: 20px;
+        width: 20px;
+    }
+    .phone-number{
+        font-size: 13px;
+    }
+    .content2{
+        margin-top: 26px;
+        margin-left: 2px !important;
+    }
+    .fresh-healthy-text{
+        font-size: 15px;
+    }
+    .sale-upto-text{
+        font-size: 12px;
+    }
+    .banner-btn{
+        width: 83px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .your-order-txt{
+        font-size: 13px;
+    }
+    .shop-now-butn{
+        font-size: 10px;
+        width: 147px;
+        height: 35px;
+    }
+    .img1s{
+        height: 133px;
+    }
+    .content{
+        margin-top: 0px !important;
+    }
+    .summer-sale-txt{
+        font-size: 12px;
+    }
+    .summer-butn{
+        font-size: 11px;
+    }
+    .after{
+        height: 133px;
+        width: 228px;
+    }
+    .special-product-text{
+        font-size: 14px !important;
+    }
+    .bbtn{
+        font-size: 11px;
+    }
+    .bar{
+        padding: 6px;
+        width: 720px;
+    }
+    .bar-txt{
+        display: inline-block;
+        line-height: 14px;
+    }
+    .bar-svgs{
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .ship-fsize {
+        font-size: 10px;
+    }
+    .heading{
+        margin-top: 20px;
+    }
+    .popular-categories-heading{
+        font-size: 14px;
+    }
+    .papular-categary-row{
+        justify-content: space-between !important;
+    }
+    .view-all-butn{
+        font-size: 12px;
+    }
+    .ctg-card{
+        width: 7rem;
+        height: 142px;
+    }
+    .on-card-svg {
+        top: 4px;
+        right: 5px;
+    }
+    .on-card-svg-eye {
+        top: 38px;
+        right: 5px;
+    }
+    .second-all-card:hover svg {
+       height: 29px !important;
+       width: 29px !important;
+       padding: 7px;
+    }
+    .popular-categories-font{
+        font-size: 12px;
+    }
+    .papular-categary-row{
+        margin-bottom: 10px !important;
+    }
+    .products{
+        width: 13px;
+        height: 25px;
+    }
+    .hot-deal-heading{
+        font-size: 16px;
+    }
+    .item-names{
+        font-size: 10px;
+    }
+    .fruit-price{
+        font-size: 11px;
+    }
+    .tag1{
+        font-size: 11px !important;
+        top: 5px;
+        left: 5px;
+    }
+    .card-text{
+        height: 94px;
+    }
+    .second-all-card{
+        height: 190px;
+    }
+    .deal-img{
+        width: 239px;
+        height: 330px;
+    }
+    .bast-deal-txt{
+        font-size: 12px;
+    }
+    .sle-of-month {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .time {
+        font-size: 14px;
+    }
+    .time-hours{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .best-deal-butn {
+        font-size: 10px;
+        padding: 6px 6px;
+        font-weight: 500;
+    }
+    .best-deal1{
+        top: 25px;
+        left: 44px;
+    }
+    .best-deal2{
+        top: 25px;
+        left: 70px;
+    }
+    .fat-free-txt{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .fat-free-btn {
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 6px 6px;
+        font-weight: 500;
+    }
+    .off64{
+        padding: 5px;
+    }
+    .off64-btn{
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 6px 6px;
+        font-weight: 500;
+    }
+    .best-deal3{
+        top: 25px;
+        left: 68px;
+    }
+    .big-product-card {
+        width: 317px;
+        height: 350px;
+        padding: 0px !important;
+    }
+    .apple-big-img {
+        height: 44%;
+    }
+    .tag2 {
+        top: 27px;
+        left: 5px;
+        font-size: 11px;
+    }
+    .time-end {
+        margin-bottom: 0px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .time-days{
+        font-size: 10px;
+    }
+    .feedback{
+        text-transform:none;
+        font-size: 7px;
+    }
+    .cards-of-big {
+        height: 175px;
+        width: 140px !important;
+        padding: 0px !important;
+    }
+    .small-cards{
+        height: 80px;
+    }
+    .coool{
+        width: 708px;
+    }
+    .i-size{
+        font-size: 22px;
+    }
+    .btn-long {
+        border-radius: 30px;
+        padding: 5px 24px;
+    }
+    .offer-text{
+        font-size: 13px;
+    }
+    .apple-line-height{
+        margin-bottom: 2px;
+    }
+    .all-cards:hover svg{
+        height: 29px !important;
+        width: 29px !important;
+        padding: 7px;
+    }
+    .orap{
+        line-height: 18px;
+    }
+    .img-resize {
+        height: 43% !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+    .cards-of-bigs{
+        height: 210px;
+    }
+    .row-width{
+        width: 721px;
+    }
+    .landscp-cont{
+        top: 12px;
+        right: 20px;
+    }
+    .landscape {
+        width: 728px;
+    }
+    .landscape h6{
+        font-size: 14px;
+    }
+    .landscape-text-size {
+        font-size: 10px !important;
+    }
+    .off37-text{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .off37 {
+        font-size: 12px;
+        padding: 8px 12px;
+        margin-top: 0px !important;
+    }
+    .latest-card{
+        width: 240px;
+        height: 325px;
+    }
+    .latest-news-svg{
+        height: 14px;
+        width: 14px;
+        margin-left: 3px !important;
+        margin-right: 1px;
+    }
+    .latest-news-svg-text{
+        font-size: 8px;
+    }
+    .news-about{
+        font-size: 12px;
+    }
+    .read-more-txt{
+        font-size: 11px;
+    }
+    .client-testimonials-div{
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .arrow-butn {
+        font-size: 13px !important;
+        height: 36px;
+        width: 36px;
+        padding: 11px !important;
+    }
+    .arroww-butn {
+        font-size: 13px !important;
+        height: 36px;
+        width: 36px;
+        padding: 11px !important;
+    }
+    .client-cards{
+        width: 720px !important;
+        height: 200px !important;
+    }
+    .client-testimonials-card-txt{
+        font-size: 12px;
+        line-height: 5px;
+    }
+    .user-svg{
+        height: 16px !important;
+        width: 16px !important;
+    }
+    .decoration-text{
+        margin-top: -15px !important;
+        margin-bottom: -40px !important;
+    }
+    .step{
+        height: 50px;
+        width: 50px;
+    }
+    .bookoff{
+        height: 40px;
+        width: 80px;
+    }
+    .user-name{
+        font-size: 12px !important;
+    }
+    .customer-txt{
+        font-size: 12px;
+    }
+    .client-card-row{
+        padding-bottom: 20px !important;
+    }
+    .instagram-svgg{
+        height: 120px;
+        width: 100px;
+        font-size: 30px;
+    }
+    .instagram-cards{
+        height: 120px !important;
+        width: 100px !important;
+    }
+    .bg-insta{
+        top: 42px;
+        left: 40px;
+    }
+    .news-letter {
+        margin-bottom: 4px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        width: 240px;
+        height: 32px;
+    }
+    .subscribe-text {
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+        width: 240px;
+    }
+    .email-input-bar{
+        width: 345px;
+        font-size: 12px;
+    }
+    .subscrib-butn { 
+        left: 257px;
+        width: 88px;
+        font-size: 12px;
+    }
+    .footer-column{
+        margin-top: 12px !important;
+        margin-bottom: 6px !important;
+    }
+    .footer-ecobzr-txt{
+        font-size: 16px !important;
+        font-weight: 500;
+    }
+    .ecobazar-footer-font{
+        font-size: 10px;
+    }
+    .contect-info{
+        font-size: 7px !important;
+    }
+    .footer-other-heading-txt{
+        font-size: 14px;
+    }
+
+    .a-link{
+        font-size: 10px;
+    }
+    .account-cart-txt{
+        font-size: 10px;
+    }
+    .footer-hr-tag{
+        margin-bottom: 5px;
+    }
+    .logo{
+        width: 43px;
+        height: 26.76px;
+    }
+    .logoo{
+        width: 64px;
+        height: 30px;
+    }
+    .payments{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 12px;
+        top: 14px;
+        left: 5px;
+    }
+    .lock-img{
+        top: 3px;
+        left: 4px;
+        width: 10px;
+        height: 10px;
+    }
+    .secure{
+        margin-top: 3px;
+        margin-left: 8px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;    
+    }  
+}
+/* and (min-width:768px)  */
+/* ===============================(max-width:767px) and (min-width:576px) ============================*/
+@media screen and (max-width:767px){
+
+.top-header-border{
+    margin-bottom: 0px;
+}
+    .top-location{
+        padding-top: 5px;
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+    .location-svg{
+        height: 13px;
+        width: 13px;
+        margin-right: 2px;
+    }
+    .lang-select {
+        font-size: 10px;
+    }
+    .sign-butn {
+        font-size: 10px;
+    }
+    .top-header-border{
+        margin-bottom: 5px;
+        height: 35px;
+    }
+    .ecobazar-logo{
+        font-size: 17px !important;
+    }
+    .main-ecobzr-heading{
+        font-size: 17px !important;
+    }
+    .search-bar-padding {
+        padding-left: 42px;
+        margin-left: 8px;
+        height: 25px !important;
+    }
+    .search-bar-padding::placeholder{
+        font-size: 10px;
+    }
+    .zoom-svg {
+        top: 1px;
+        left: 10px;
+    }
+    .top-search-butn {
+        height: 30px;
+        width: 76px;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .heart-svg{
+        height: 25px;
+        width: 25px;
+    }
+    .heart-svg2{
+        height: 25px;
+        width: 25px;
+    }
+    .hr-top-tag{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .tag-div {
+        font-size: 7px;
+        width: 14px;
+        height: 14px;
+        top: -3px;
+        right: 2px;
+    }
+    .shoping-tray {
+        display: inline-block;
+        height: 0px;
+        font-size: 10px;
+    }
+    .shoping-tray-price {
+        font-size: 12px;
+    }
+    .search-svg{
+        height: 15px;
+        width: 15px;
+    }
+    .top-search-butn {
+        height: 25px;
+        width: 58px;
+        margin: 0px;
+        font-size: 10px;
+    }
+    .coool{
+        width: 750px;
+    }
+    .a-i a{
+        font-size: 12px;
+    }
+    .phone-reciver-svg{
+        height: 20px;
+        width: 20px;
+    }
+    .phone-number{
+        font-size: 13px;
+    }
+    .content2{
+        margin-top: 35px;
+        margin-left: 5px !important;
+    }
+    .fresh-healthy-text{
+        font-size: 15px;
+    }
+    .sale-upto-text{
+        font-size: 12px;
+    }
+    .banner-btn{
+        width: 79px;
+        height: 29px;
+        font-size: 13px;
+        margin-left: 5px;
+    }
+    .your-order-txt{
+        font-size: 12px;
+    }
+    .shop-now-butn{
+        font-size: 10px;
+        width: 109px;
+        height: 28px;
+        padding: 16px;
+    }
+    .img1s{
+        height: 157px;
+        width: 288px !important;
+        object-fit: contain;
+    }
+    .content{
+        margin-top: 0px !important;
+    }
+    .summer-sale-txt{
+        font-size: 12px;
+    }
+    .summer-butn{
+        font-size: 11px;
+    }
+    .after{
+        height: 157px;
+        width: 233px;
+        margin-left: 17px;
+    }
+    .special-product-text{
+        font-size: 14px !important;
+    }
+    .bbtn{
+        font-size: 11px;
+    }
+    .bar{
+        padding: 6px;
+        width:766px;
+    }
+    .bar-svgs{
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .ship-fsize {
+        font-size: 10px;
+    }
+    .heading{
+        margin-top: 20px;
+    }
+    .popular-categories-heading{
+        font-size: 14px;
+    }
+    .papular-categary-row{
+        justify-content: space-between !important;
+        margin-left: -5px;
+    }
+    .view-all-butn{
+        font-size: 12px;
+    }
+    .ctg-card{
+        width: 8rem;
+        height: 142px;
+    }
+    .on-card-svg {
+        top: 4px;
+        right: 5px;
+    }
+    .on-card-svg-eye {
+        top: 38px;
+        right: 5px;
+    }
+    .second-all-card:hover svg {
+       height: 29px !important;
+       width: 29px !important;
+       padding: 7px;
+    }
+    .popular-categories-font{
+        font-size: 12px;
+    }
+    .papular-categary-row{
+        margin-bottom: 10px !important;
+    }
+    .products{
+        width: 13px;
+        height: 25px;
+    }
+    .hot-deal-heading{
+        font-size: 16px;
+    }
+    .item-names{
+        font-size: 10px;
+    }
+    .fruit-price{
+        font-size: 10px;
+    }
+    .tag1{
+        font-size: 11px !important;
+        top: 5px;
+        left: 5px;
+    }
+    .card-text{
+        height: 94px;
+    }
+    .second-all-card{
+        height: 190px;
+    }
+    .deal-img{
+        width: 236px;
+        height: 310px;
+    }
+    .bast-deal-txt{
+        font-size: 12px;
+    }
+    .sle-of-month {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .time {
+        font-size: 14px;
+    }
+    .time-hours{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .best-deal-butn {
+        font-size: 10px;
+        padding: 6px 6px;
+        font-weight: 500;
+    }
+    .best-deal1{
+        top: 25px;
+        left: 44px;
+    }
+    .best-deal2{
+        top: 25px;
+        left: 70px;
+    }
+    .fat-free-txt{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .fat-free-btn {
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 6px 6px;
+        font-weight: 500;
+    }
+    .off64{
+        padding: 5px;
+    }
+    .off64-btn{
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 6px 6px;
+        font-weight: 500;
+    }
+    .best-deal3{
+        top: 25px;
+        left: 68px;
+    }
+    .big-product-card {
+        width: 334px;
+        height: 350px;
+        padding: 0px !important;
+    }
+    .apple-big-img {
+        height: 55%;
+    }
+    .apple-font{
+        margin-bottom: 2px;
+        font-size: 0px;
+    }
+    .tag2 {
+        top: 27px;
+        left: 5px;
+        font-size: 11px;
+    }
+    .time-end {
+        margin-bottom: 0px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .time-days{
+        font-size: 10px;
+    }
+    .feedback{
+        text-transform:none;
+        font-size: 7px;
+    }
+    .row-width {
+        width: 748px;
+    }
+    .cards-of-big {
+        height: 175px;
+        width: 133px !important;
+        padding: 0px !important;
+    }
+    .small-cards{
+        height: 80px;
+    }
+    .i-size{
+        font-size: 22px;
+    }
+    .btn-long {
+        border-radius: 30px;
+        padding: 5px 24px;
+    }
+    .offer-text{
+        font-size: 12px;
+    }
+    .apple-line-height{
+        margin-bottom: 2px;
+    }
+    .all-cards:hover svg{
+        height: 29px !important;
+        width: 29px !important;
+        padding: 7px;
+    }
+    .orap{
+        line-height: 18px;
+    }
+    .img-resize {
+        height: 54% !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+    .cards-of-bigs{
+        height: 210px;
+    }
+    .landscape {
+        width: 765px;
+    }
+    .landscp-cont{
+        top: 12px;
+        right: 20px;
+    }
+    .landscape h6{
+        font-size: 14px;
+    }
+    .landscape-text-size {
+        font-size: 10px !important;
+    }
+    .off37-text{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .off37 {
+        font-size: 12px;
+        padding: 8px 12px;
+        margin-top: 0px !important;
+    }
+    .latest-card{
+        width: 249px;
+        height: 322px;
+    }
+    .latest-news-svg{
+        height: 14px;
+        width: 14px;
+        margin-left: 3px !important;
+        margin-right: 1px;
+    }
+    .latest-news-svg-text{
+        font-size: 8px;
+    }
+    .news-about{
+        font-size: 12px;
+    }
+    .read-more-txt{
+        font-size: 11px;
+    }
+    .hot-deal-heading{
+        margin-top: 15px;
+    }
+    .arroows-btn{
+        margin-top: 15px;
+    }
+    .client-testimonials-div{
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .arrow-butn {
+        font-size: 13px !important;
+        height: 36px;
+        width: 36px;
+        padding: 11px !important;
+    }
+    .arroww-butn {
+        font-size: 13px !important;
+        height: 36px;
+        width: 36px;
+        padding: 11px !important;
+    }
+    .client-cards{
+        width: 744px !important;
+        height: 196px !important;
+    }
+    .client-testimonials-card-txt{
+        font-size: 11px;
+        line-height: 5px;
+    }
+    .user-svg{
+        height: 16px !important;
+        width: 16px !important;
+    }
+    .decoration-text{
+        margin-top: -15px !important;
+        margin-bottom: -40px !important;
+    }
+    .row-social{
+        justify-content: space-around !important;
+    }
+    .step{
+        height: 50px;
+        width: 50px;
+    }
+    .bookoff{
+        height: 40px;
+        width: 80px;
+    }
+    .user-name{
+        font-size: 12px !important;
+    }
+    .customer-txt{
+        font-size: 12px;
+    }
+    .client-card-row{
+        padding-bottom: 20px !important;
+    }
+    .insta-hvr{
+        width: 148px;
+    }
+    .instagram-svgg{
+        height: 120px;
+        width: 92px;
+        font-size: 30px;
+    }
+    .instagram-cards{
+        height: 120px !important;
+        width: 100px !important;
+    }
+    .bg-insta{
+        top: 42px;
+        left: 31px;
+    }
+    .news-letter {
+        margin-bottom: 4px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        width: 240px;
+        height: 32px;
+    }
+    .subscribe-text {
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+        width: 240px;
+    }
+    .email-input-bar{
+        width: 345px;
+        font-size: 12px;
+    }
+    .subscrib-butn { 
+        left: 257px;
+        width: 88px;
+        font-size: 12px;
+    }
+    .footer-column{
+        margin-top: 12px !important;
+        margin-bottom: 6px !important;
+    }
+    .footer-ecobzr-txt{
+        font-size: 16px !important;
+        font-weight: 500;
+    }
+    .ecobazar-footer-font{
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+    .contect-info{
+        font-size: 9px !important;
+    }
+    .contect-info p{
+        margin-bottom: 1px;
+        width: 96px;
+    }
+    .or-txt{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-other-heading-txt{
+        font-size: 14px;
+    }
+    .a-link{
+        font-size: 10px;
+    }
+    .account-cart-txt{
+        font-size: 10px;
+    }
+    .footer-hr-tag{
+        margin-bottom: 5px;
+    }
+    .logo{
+        width: 43px;
+        height: 26.76px;
+    }
+    .logoo{
+        width: 64px;
+        height: 30px;
+    }
+    .money-cards-icons{
+        width: 253px;
+        height: 28px;
+    }
+    .payments{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 12px;
+        top: 14px;
+        left: 5px;
+    }
+    .lock-img{
+        top: 3px;
+        left: 4px;
+        width: 10px;
+        height: 10px;
+    }
+    .secure{
+        margin-top: 3px;
+        margin-left: 8px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;    
+    }  
+    
+}
+
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+@media screen and (max-width:750px) {
+
+    .deal-img {
+        width: 228px;
+        height: 310px;
+    }
+    .cards-of-big {
+        height: 173px;
+        width: 130px !important;
+        padding: 0px !important;
+    }
+    .cards-of-bigs {
+        height: 162px;
+    }
+    .row-width {
+        width: 728px;
+    }
+    .lg-row {
+        margin-left: -14px;
+    }
+    .big-product-card {
+        width: 300px;
+        height: 345px;
+        padding: 0px !important;
+    }
+    .landscape {
+        width: 741px;
+    }
+    .latest-card {
+        width: 238px;
+        height: 322px;
+    }
+
+    .ctg-card {
+        width: 7.5rem;
+        height: 128px;
+    }
+    .popular-categories-font {
+        font-size: 10px;
+    }
+    .orap {
+        line-height: 15px;
+    }
+    
+}
+
+@media screen and (max-width:740px) {
+    .img1s{
+        width: 228px !important;
+    }
+    .after {
+        height: 157px;
+        width: 226px;
+        margin-left: 12px;
+    }
+    .bar {
+        padding: 2px;
+        width: 727px;
+    }
+    .deal-img {
+        width: 227px;
+        height: 305px;
+    }
+    .coool {
+        width: 711px;
+    }
+    .apple-big-img {
+        height: 48%;
+    }
+    .big-product-card {
+        width: 326px;
+        height: 350px;
+        padding: 0px !important;
+    }
+    .row-width {
+        width: 715px;
+    }
+    .cards-of-bigs {
+        height: 173px;
+    }
+    
+    .landscape {
+        width: 712px;
+    }
+
+    .latest-card {
+        width: 227px;
+        height: 336px;
+    }
+
+
+}
+
+@media screen and (max-width:723px) {
+.img1s{
+    width: 212px !important;
+}
+.after{
+    width: 212px;
+}
+.ship-fsize {
+    font-size: 9px;
+}
+.item-names {
+    font-size: 9px;
+}
+.deal-img {
+    width: 220px;
+    height: 300px;
+}
+.best-deal1 {
+    top: 15px;
+    left: 39px;
+}
+.best-deal2 {
+    top: 15px;
+    left: 62px;
+}
+.best-deal3 {
+    top: 15px;
+    left: 62px;
+}
+.time {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.row-width {
+    width: 690px;
+}
+.coool {
+    width: 690px;
+}
+.big-product-card {
+    width: 289px;
+    height: 343px;
+    padding: 0px !important;
+}
+.cards-of-big {
+    height: 171px;
+    width: 125px !important;
+    padding: 0px !important;
+}
+.heading {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.instagram-cards {
+    height: 100px !important;
+    width: 100px !important;
+}
+.instagram-svgg {
+    height: 100px;
+    width: 86px;
+    font-size: 30px;
+}
+.bg-insta {
+    top: 32px;
+    left: 30px;
+}
+}
+
+@media screen and (max-width:710px) {
+    .card-img-top {
+        width: 80%;
+    }
+    .ctg-card {
+        width: 7rem;
+        height: 107px;
+    }
+    .popular-categories-font {
+        margin: 0px;
+        font-size: 9px;
+    }
+    .landscape {
+        width: 707px;
+    }
+    .landscp-cont {
+        top: 12px;
+        right: 31px;
+    }
+    .card-img-top {
+        width: 100%;
+    }
+    .latest-card {
+        width: 230px;
+        height: 310px;
+    }
+    .email-input-bar {
+        width: 290px;
+        font-size: 11px;
+    }
+    .subscrib-butn {
+        left: 206px;
+        width: 81px;
+        font-size: 11px;
+    }
+    .news-letter {
+        margin-bottom: 4px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 162px;
+        height: 25px;
+    }
+    .subscribe-text {
+        font-size: 11px;
+        line-height: 15px;
+        font-weight: 400;
+        width: 227px;
+    }
+    .fb-svg{
+        left: 0px;
+    }
+
+
+
+
+
+    
+}
+
+@media screen and (max-width:695px) {
+
+    .bar {
+        padding: 2px;
+        width: 692px;
+    }
+    .deal-img {
+        width: 208px;
+        height: 285px;
+    }
+    .best-deal1 {
+        top: 15px;
+        left: 30px;
+    }
+    .best-deal2 {
+        top: 15px;
+        left: 57px;
+    }
+    .papular-categary-row{
+        width: 175px;
+    }
+    .best-deal3 {
+        top: 15px;
+        left: 57px;
+    }
+    .big-product-card {
+        width: 269px;
+        height: 342px;
+        padding: 0px !important;
+    }
+    .row-width {
+        width: 674px;
+    }
+    .landscape {
+        width: 686px;
+    }
+    .landscape-text-size {
+        font-size: 10px !important;
+        width: 182px;
+    }
+    .br-for-md{
+        display: none;
+    }
+    .off37 {
+        font-size: 11px;
+        padding: 6px 8px;
+        margin-top: 0px !important;
+    }
+    .latest-card {
+        width: 220px;
+        height: 329px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:) {
+    
 }
