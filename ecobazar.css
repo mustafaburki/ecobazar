@@ -1333,6 +1333,7 @@ li,
     .lang-select {
         font-size: 11px;
     }
+  
     .sign-butn {
         font-size: 11px;
     }
@@ -1395,6 +1396,7 @@ li,
     }
     .heading{
         margin-top: 20px;
+        width: 948px;
     }
     .popular-categories-heading{
         font-size: 16px;
@@ -1415,13 +1417,13 @@ li,
         font-size: 13px;
     }
     .card-text{
-        height: 134px;
+        height: 133px !important;
     }
     .second-all-card{
         height: 247px;
     }
     .deal-img{
-        width: 310px;
+        width: 318px;
         height: 430px;
     }
     .sle-of-month {
@@ -1441,7 +1443,7 @@ li,
     }
     .best-deal1{
         top: 40px;
-        left: 75px;
+        left: 70px;
     }
     .fat-free-txt{
         font-size: 12px;
@@ -1463,20 +1465,23 @@ li,
     }
     .best-deal2{
         top: 40px;
-        left: 98px;
+        left: 95px;
     }
     .best-deal3{
         top: 40px;
-        left: 96px;
+        left: 88px;
     }
     .big-product-card {
         width: 369px;
         height: 450px;
         padding: 0px !important;
     }
+    .small-cards {
+        height: 124px;
+    }
     .cards-of-big {
         height: 225px;
-        width: 187px !important;
+        width: 175px !important;
         padding: 0px !important;
     }
     .i-size{
