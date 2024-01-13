@@ -1190,6 +1190,9 @@ li,
     .coool{
         width: 948px;
     }
+    .landscape {
+        width: 960px;
+    }
     .landscp-cont{
         top: 30px;
         right: 30px;
