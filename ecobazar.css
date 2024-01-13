@@ -259,7 +259,7 @@ body {
 }
 
 .cards-of-bigs {
-    height: 260px;
+    /* height: 260px; */
     width: 222px !important;
     padding: 0px !important;
 }
@@ -824,18 +824,22 @@ li,
 /* ===============================(max-width:1440px) and (min-width:1367px) ============================*/
 
 @media screen and (max-width:1440px) {
-
-   
+    .card-text{
+        height: 170px !important;
+    }    
+    .img1s {
+        width: 426px;
+    }
     .home-section {
         background-size: cover;
     }
 
     .after {
-        width: 359px; 
+        width: 427px; 
     }
 
     .bar {
-        width: 1251px;
+        width: 1320px;
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -933,7 +937,7 @@ li,
        margin-left: 30px;
     }
     .coool{
-       width: 1335px;
+       width: 1320px;
     }
     .instagram-svgg{
         width: 198px;
@@ -948,11 +952,11 @@ li,
     }
 
     .after {
-        width: 360px; 
+        width: 367px; 
     }
 
     .bar {
-        width: 1135px;  
+        width: 1139px;  
     }
 
     .ctg-card {
@@ -996,7 +1000,7 @@ li,
         width: 165px;
     }
     .deal-img{
-        width: 379px;
+        width: 378px;
         height: 470px;
     }
     .best-deal1{
@@ -1034,10 +1038,7 @@ li,
 
     
 }
-@media screen and (max-width:1199px) {
 
-
-}
 /* and (min-width:1200px) */
 /* ===============================(max-width:1199px) and (min-width:1025px) ============================*/
 @media screen and (max-width:1199px) {
@@ -1105,7 +1106,7 @@ li,
         justify-content: space-between !important;
     }
     .deal-img{
-        width: 300px;
+        width: 318px;
         height: 410px;
     }
     .bast-deal-txt{
@@ -1182,6 +1183,12 @@ li,
     }
     .apple-font{
         margin-bottom: 0px;
+    }
+    .row-width {
+        width: 960px;
+    }
+    .coool{
+        width: 948px;
     }
     .landscp-cont{
         top: 30px;
