@@ -3061,6 +3061,16 @@ li,
 .input-group {
     width: 140px !important;
 }
-
-
+.papular-categary-row {
+    width: 100%;
+}
+.second-all-card{
+    height: 247px;
+    width: 126px;
+}
+.popular-card-mobile{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
 }
