@@ -10,6 +10,9 @@ body {
     padding: 0;
 
 }
+.hot-deal-mobile{
+    display: none;
+}
 .for-sm-device{
     display: none;
 }
@@ -3065,7 +3068,7 @@ li,
     width: 100%;
 }
 .second-all-card{
-    height: 247px;
+    height: 200px;
     width: 126px;
 }
 .popular-card-mobile{
@@ -3073,4 +3076,70 @@ li,
     gap: 5px;
     flex-wrap: wrap;
 }
+.deal-img {
+    width: 257px !important;
+}
+.best-deal1 {
+    top: 15px;
+    left: 30px;
+    height: 200px;
+    width: 200px;
+}
+.on-sale-product-col{
+    padding: 0px !important;
+    width: 60.33% !important;
+
+}
+.ctg-card {
+    width: 7rem;
+    height: 122px;
+}
+.onsale-product-resp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.coool{
+    display: none;
+}
+
+.hot-deal-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hot-deal-mobile .col-4{
+    margin: 10px 0px;
+}
+.big-product-card{
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.row-width{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card-break{
+    display: flex;
+    gap: 10;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cards-of-bigs{
+    width: 165px !important;
+    margin: 5px;
+}
+.landscape{
+    width: 100%;
+}
+
 }
