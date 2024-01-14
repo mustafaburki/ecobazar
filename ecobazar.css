@@ -388,23 +388,23 @@ body {
 }
 
 .second-all-card:hover svg {
-    height: 40px !important;
-    width: 40px !important;
+    height: 34px !important;
+    width: 34px !important;
     background-color: #00B207;
     color: rgb(255, 255, 255) !important;
-    padding: 6px;
+    padding: 7px;
     font-weight: bold;
     border-radius: 50% !important;
 
 }
 
 .all-cards:hover svg {
-    height: 40px !important;
-    width: 40px !important;
+    height: 34px !important;
+    width: 34px !important;
     background-color: #00B207 !important;
     color: rgb(255, 255, 255) !important;
-    padding: 6px;
-    font-weight: bold;
+    padding: 7px;
+    /* font-weight: bold; */
     border-radius: 50% !important;
 }
 
@@ -713,8 +713,6 @@ body {
 .lg-row{
     margin: 0px;
 }
-
-
 .circle {
     border-radius: 50%;
 }
@@ -775,7 +773,6 @@ body {
     border-radius: 50%;
 }
 
-
 .ecobazar-font {
     font-size: 11px;
     color: lightslategrey;
@@ -798,7 +795,6 @@ li,
     text-decoration: none;
     color: #999999;
 }
-
 
 .account-cart-txt {
     color: #FFFFFF !important;
@@ -1808,7 +1804,7 @@ li,
     }
     .ctg-card{
         width: 7rem;
-        height: 142px;
+        height: 128px;
     }
     .on-card-svg {
         top: 4px;
@@ -1824,7 +1820,7 @@ li,
        padding: 7px;
     }
     .popular-categories-font{
-        font-size: 12px;
+        font-size: 10px;
     }
     .papular-categary-row{
         margin-bottom: 10px !important;
@@ -1848,7 +1844,7 @@ li,
         left: 5px;
     }
     .card-text{
-        height: 94px;
+        height: 95px !important;
     }
     .second-all-card{
         height: 190px;
@@ -1878,11 +1874,15 @@ li,
     }
     .best-deal1{
         top: 25px;
-        left: 44px;
+        left: 35px;
     }
     .best-deal2{
         top: 25px;
-        left: 70px;
+        left: 64px;
+    }
+    .best-deal3{
+        top: 25px;
+        left: 61px;
     }
     .fat-free-txt{
         font-size: 11px;
@@ -1903,12 +1903,9 @@ li,
         padding: 6px 6px;
         font-weight: 500;
     }
-    .best-deal3{
-        top: 25px;
-        left: 68px;
-    }
+    
     .big-product-card {
-        width: 317px;
+        width: 282px;
         height: 350px;
         padding: 0px !important;
     }
@@ -1973,14 +1970,14 @@ li,
         height: 210px;
     }
     .row-width{
-        width: 721px;
+        width: 710px;
     }
     .landscp-cont{
         top: 12px;
         right: 20px;
     }
     .landscape {
-        width: 728px;
+        width: 710px;
     }
     .landscape h6{
         font-size: 14px;
@@ -1998,7 +1995,7 @@ li,
         margin-top: 0px !important;
     }
     .latest-card{
-        width: 240px;
+        width: 236px;
         height: 325px;
     }
     .latest-news-svg{
@@ -2024,14 +2021,15 @@ li,
         font-size: 13px !important;
         height: 36px;
         width: 36px;
-        padding: 11px !important;
+        padding: 10px !important;
     }
     .arroww-butn {
         font-size: 13px !important;
         height: 36px;
         width: 36px;
-        padding: 11px !important;
+        padding: 10px !important;
     }
+
     .client-cards{
         width: 720px !important;
         height: 200px !important;
@@ -2048,6 +2046,7 @@ li,
         margin-top: -15px !important;
         margin-bottom: -40px !important;
     }
+
     .step{
         height: 50px;
         width: 50px;
@@ -2092,14 +2091,23 @@ li,
         font-weight: 400;
         width: 240px;
     }
+    .email-input-bar-div{
+        width: 300px;
+    }
     .email-input-bar{
-        width: 345px;
+        width: 290px;
+        height: 32px;
         font-size: 12px;
     }
     .subscrib-butn { 
-        left: 257px;
+        left: 202px;
         width: 88px;
+        height: 32px;
         font-size: 12px;
+    }
+    .social-icons-div {
+        width: 40px;
+        height: 40px;
     }
     .footer-column{
         margin-top: 12px !important;
@@ -2434,9 +2442,12 @@ li,
         left: 68px;
     }
     .big-product-card {
-        width: 334px;
+        width: 302px;
         height: 350px;
         padding: 0px !important;
+    }
+    .big-product-cardbody {
+        padding-top: 0px !important;
     }
     .apple-big-img {
         height: 55%;
@@ -2463,11 +2474,11 @@ li,
         font-size: 7px;
     }
     .row-width {
-        width: 748px;
+        width: 750px;
     }
     .cards-of-big {
         height: 175px;
-        width: 133px !important;
+        width: 145px !important;
         padding: 0px !important;
     }
     .small-cards{
@@ -2557,13 +2568,13 @@ li,
         font-size: 13px !important;
         height: 36px;
         width: 36px;
-        padding: 11px !important;
+        padding: 10px !important;
     }
     .arroww-butn {
         font-size: 13px !important;
         height: 36px;
         width: 36px;
-        padding: 11px !important;
+        padding: 10px !important;
     }
     .client-cards{
         width: 744px !important;
