@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -3232,3 +3233,224 @@ li,
 
 
 }
+@media screen and (max-width: 375px) {
+
+
+    .hide{
+       display: none;
+    }
+    .show{
+       display: block;
+    }
+    .home-section {
+       background-image: url(1.png);
+       background-repeat: no-repeat;
+       background-position: top right;
+       background-size: contain;
+       border-radius: 8px;
+       height: 250px !important;
+       width: 425px !important;
+   }
+   .after {
+       width: 180px;
+       margin-left: 0px !important;
+       height: 133px !important;
+   }
+   .img1s{
+       height: 141px;
+   }
+   .bar-for-all{
+       display: none;
+   }
+   .bar {
+       padding: 5px;
+       width: 426px;
+   }
+   .bar-for-mobile{
+       display: flex;
+   }
+   .top-header-border{
+       display: none;
+   }
+   .signup-resp{
+       display: inline-block !important;
+   }
+   .svg-main-div, .price, .top-search-butn{
+       display: none !important;
+   }
+   
+   .resp-logo{
+       width: 31%;
+   }
+   
+   .input-group {
+       width: 140px !important;
+   }
+   .papular-categary-row {
+       width: 100%;
+   }
+   .second-all-card{
+       height: 200px;
+       width: 126px;
+   }
+   .popular-card-mobile{
+       display: flex;
+       gap: 5px;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   .deal-img {
+       width: 271px !important;
+   }
+   .best-deal1 {
+       top: 15px;
+       left: 30px;
+       height: 200px;
+       width: 200px;
+   }
+   .on-sale-product-col{
+       padding: 0px !important;
+       width: 60.33% !important;
+   
+   }
+   .ctg-card {
+       width: 7rem;
+       height: 122px;
+   }
+   .onsale-product-resp{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 15px;
+       margin-top: 15px !important;
+   }
+   .coool{
+       display: none;
+   }
+   
+   .hot-deal-mobile{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .hot-deal-mobile .col-4{
+       margin: 10px 0px;
+   }
+   .big-product-card{
+       width: 100%;
+       margin-top: 20px;
+   
+   }
+   
+   .row-width{
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+   }
+   .card-break{
+       display: flex;
+       gap: 10;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       margin-top: 20px;
+   }
+   .cards-of-bigs{
+       width: 165px !important;
+       margin: 5px;
+   }
+   .landscape{
+       width: 100%;
+   }
+   .mobile-hide{
+       display: none;
+   }
+   .landscp-cont {
+       top: 12px;
+       right: 0px;
+       width: 112px;
+   }
+   .off37 {
+       font-size: 10px;
+       padding: 5px 7px;
+       margin-top: -18px !important;
+   }
+   
+   .featured-mobile-card{
+       width: 100%;
+       display: flex ;
+       flex-wrap: wrap;
+       align-content: center;
+       align-items: center;
+       justify-content: center;
+       gap: 2px;
+   }
+   
+   .featured-mobile-card .card-text{
+       width: 130px;
+   }
+   .papular-categary-row {
+       justify-content: center !important;
+       margin-left: 0px;
+   }
+   .heading{
+       width: 100%;
+   }
+   .container-of-hot-deal{
+       margin-top: 15px !important;
+   }
+   .latest-news-row{
+       width: 100%;
+   }
+   .latest-card {
+       width: 133px;
+       height: 225px;
+   }
+   
+   .news-about {
+       font-size: 9px;
+   }
+   .msg-hide-for-mobile{
+       display: none !important;
+   }
+   .read-more-txt {
+       font-size: 9px;
+   }
+   .client-testimonials-card-txt {
+       font-size: 10px;
+       line-height: 0px;
+   }
+   .client-testimonials-container{
+       padding: 0px;
+   }
+   .paragraph{
+       line-height: 80%;
+   }
+   .user-name {
+       font-size: 10px !important;
+   }
+   .customer-txt {
+       font-size: 10px;
+   }
+   .mango, .foods{
+       display: none;
+   }
+   .instagram-images{
+       flex-wrap: wrap;
+       justify-content: center !important;
+   }
+   .insta-hvr {
+       width: 120px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   }
