@@ -3097,9 +3097,13 @@ li,
 }
 .best-deal1 {
     top: 15px;
-    left: 30px;
+    left: 34px;
     height: 200px;
     width: 200px;
+}
+.best-deal3 {
+    top: 15px;
+    left: 77px;
 }
 .on-sale-product-col{
     padding: 0px !important;
@@ -3150,6 +3154,7 @@ li,
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 23px;
 }
 .cards-of-big {
     height: 171px;
@@ -3159,6 +3164,10 @@ li,
 .cards-of-bigs{
     width: 165px !important;
     margin: 5px;
+}
+.best-deal2 {
+    top: 15px;
+    left: 80px;
 }
 .landscape{
     width: 100%;
