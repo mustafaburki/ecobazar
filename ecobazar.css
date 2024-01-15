@@ -879,7 +879,7 @@ li,
         padding: 0px !important;
     }
     .row-width{
-        width: 1335px;
+        width: 1323px;
     }
     .landscape{
         width: 1335px;
@@ -2624,8 +2624,8 @@ li,
     .client-card-row{
         padding-bottom: 20px !important;
     }
-    .insta-hvr{
-        width: 148px;
+    .insta-hvr {
+        width: 100px;
     }
     .instagram-svgg{
         height: 120px;
@@ -3019,6 +3019,14 @@ li,
     .social-icons-subscription{
         display: none !important;
     }
+    .signup-resp{
+        background-color: #00B207;
+        font-size: 10px;
+        height: 30px;
+    }
+    .offcanvas-size{
+        width: 212px !important;
+    }
 
 
  .hide{
@@ -3142,6 +3150,11 @@ li,
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+.cards-of-big {
+    height: 171px;
+    width: 134px !important;
+    padding: 0px !important;
 }
 .cards-of-bigs{
     width: 165px !important;
