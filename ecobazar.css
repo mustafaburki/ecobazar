@@ -11,6 +11,9 @@ body {
     padding: 0;
 
 }
+.footer-for-small{
+    display: none;
+}
 .hot-deal-mobile{
     display: none;
 }
@@ -3013,6 +3016,9 @@ li,
 }
 
 @media screen and (max-width: 425px) {
+    .social-icons-subscription{
+        display: none !important;
+    }
 
 
  .hide{
@@ -3224,6 +3230,56 @@ li,
 .insta-hvr {
     width: 120px;
 }
+.email-input-bar {
+    width: 360px;
+    font-size: 10px;
+}
+.subscrib-butn {
+    left: 276px;
+    width: 83px;
+    font-size: 10px;
+    height: 30px;
+}
+.subscribe-text {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    width: 400px;
+}
+.footer-for-mobile{
+    display: none;
+}
+.footer-for-small{
+    display: block;
+}
+.money-cards-icons {
+    width: 208px;
+    height: 22px;
+}
+.logo {
+    width: 43px;
+    height: 22.76px;
+}
+.secure {
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.lock-img {
+    top: 3px;
+    left: 1px;
+    width: 8px;
+    height: 8px;
+}
+.payments {
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 13px;
+    top: 14px;
+    left: 2px;
+}
 
 
 
@@ -3234,8 +3290,9 @@ li,
 
 }
 @media screen and (max-width: 375px) {
-
-
+    .social-icons-subscription{
+        display: none !important;
+    }
     .hide{
        display: none;
     }
