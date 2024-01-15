@@ -826,6 +826,9 @@ li,
 .show{
     display: none;
 }
+li>div.show{
+    display: inline-block;
+   }
 .bar-for-mobile{
     display: none;
 }
@@ -3534,3 +3537,5 @@ li,
    
    
    }
+
+ 
