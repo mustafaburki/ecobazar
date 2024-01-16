@@ -823,7 +823,7 @@ li,
     font-size: 25px;
     margin-right: 10px;
 }
-.show{
+.showw{
     display: none;
 }
 li>div.show{
@@ -2274,9 +2274,6 @@ li>div.show{
     .a-i a{
         font-size: 12px;
     }
-    .li-margin{
-        margin-left: 0px !important;
-    }
     .phone-reciver-svg{
         height: 20px;
         width: 20px;
@@ -2739,15 +2736,8 @@ li>div.show{
     }  
     
 }
-
 /* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 @media screen and (max-width:750px) {
-
-
-    .li-margin{
-        margin-left: 0px !important;
-    }
-
     .deal-img {
         width: 228px;
         height: 310px;
@@ -2795,9 +2785,6 @@ li>div.show{
 
 @media screen and (max-width:740px) {
 
-    .li-margin{
-        margin-left: 0px !important;
-    }
     .img1s{
         width: 228px !important;
     }
@@ -2845,9 +2832,7 @@ li>div.show{
 }
 
 @media screen and (max-width:723px) {
-    .li-margin{
-        margin-left: 0px !important;
-    }
+
 .img1s{
     width: 212px !important;
 }
@@ -2916,9 +2901,7 @@ li>div.show{
 }
 
 @media screen and (max-width:710px) {
-    .li-margin{
-        margin-left: 0px !important;
-    }
+
     .card-img-top {
         width: 80%;
     }
@@ -2979,9 +2962,7 @@ li>div.show{
 }
 
 @media screen and (max-width:695px) {
-    .li-margin{
-        margin-left: 0px !important;
-    }
+  
 
     .bar {
         padding: 2px;
@@ -3040,9 +3021,6 @@ li>div.show{
 }
 
 @media screen and (max-width: 425px) {
-    .li-margin{
-        margin-left: 0px !important;
-    }
     .social-icons-subscription{
         display: none !important;
     }
@@ -3054,98 +3032,100 @@ li>div.show{
     .offcanvas-size{
         width: 212px !important;
     }
-
-
- .hide{
-    display: none;
- }
- .show{
-    display: block;
- }
- .home-section {
-    background-image: url(1.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: contain;
-    border-radius: 8px;
-    height: 250px !important;
-    width: 425px !important;
-}
-.after {
-    width: 212px;
-    margin-left: 0px !important;
-    height: 141px !important;
-}
-.img1s{
-    height: 141px;
-}
-.bar-for-all{
-    display: none;
-}
-.bar {
-    padding: 5px;
-    width: 426px;
-}
-.bar-for-mobile{
-    display: flex;
-}
-.top-header-border{
-    display: none;
-}
-.signup-resp{
-    display: inline-block !important;
-}
-.svg-main-div, .price, .top-search-butn{
-    display: none !important;
-}
-
-.resp-logo{
-    width: 31%;
-}
-
-.input-group {
-    width: 140px !important;
-}
-.papular-categary-row {
-    width: 100%;
-}
-.second-all-card{
-    height: 200px;
-    width: 126px;
-}
-.popular-card-mobile{
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.deal-img {
-    width: 271px !important;
-}
-.best-deal1 {
-    top: 15px;
-    left: 34px;
-    height: 200px;
-    width: 200px;
-}
-.best-deal3 {
-    top: 15px;
-    left: 77px;
-}
-.on-sale-product-col{
-    padding: 0px !important;
-    width: 60.33% !important;
-
-}
-.ctg-card {
-    width: 7rem;
-    height: 122px;
-}
-.onsale-product-resp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    .big-product-cardbody{
+        margin-top: 10px;
+    }
+    .footer-hr-tag {
+        margin-bottom: 10px;
+    }
+  
+    .hide{
+       display: none;
+    }
+    .showw{
+       display: block;
+    }
+    .home-section {
+       background-image: url(1.png);
+       background-repeat: no-repeat;
+       background-position: top right;
+       background-size: contain;
+       border-radius: 8px;
+       height: 250px !important;
+       width: 425px !important;
+    }
+    .after {
+       width: 212px;
+       margin-left: 0px !important;
+       height: 141px !important;
+    }
+    .img1s{
+       height: 141px;
+    }
+    .bar-for-all{
+       display: none;
+    }
+    .bar {
+       padding: 5px;
+       width: 426px;
+    }
+    .bar-for-mobile{
+       display: flex;
+    }
+    .top-header-border{
+       display: none;
+    }
+    .signup-resp{
+       display: inline-block !important;
+    }
+    .svg-main-div, .price, .top-search-butn{
+       display: none !important;
+    }
+    .resp-logo{
+       width: 31%;
+    }
+    .input-group {
+       width: 140px !important;
+    }
+    .papular-categary-row {
+       width: 100%;
+    }
+    .second-all-card{
+       height: 200px;
+       width: 126px;
+    }
+    .popular-card-mobile{
+       display: flex;
+       gap: 5px;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .deal-img {
+       width: 271px !important;
+    }
+    .best-deal1 {
+       top: 15px;
+       left: 34px;
+       height: 200px;
+       width: 200px;
+    }
+    .best-deal3 {
+       top: 15px;
+       left: 77px;
+    }
+    .on-sale-product-col{
+       padding: 0px !important;
+       width: 60.33% !important;
+    }
+    .ctg-card {
+       width: 7rem;
+       height: 122px;
+    }
+    .onsale-product-resp{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
     gap: 15px;
     margin-top: 15px !important;
     margin-left: -20px;
@@ -3213,7 +3193,6 @@ li>div.show{
     padding: 5px 7px;
     margin-top: -18px !important;
 }
-
 .featured-mobile-card{
     width: 100%;
     display: flex ;
@@ -3223,7 +3202,6 @@ li>div.show{
     justify-content: center;
     gap: 2px;
 }
-
 .featured-mobile-card .card-text{
     width: 130px;
 }
@@ -3244,7 +3222,6 @@ li>div.show{
     width: 133px;
     height: 225px;
 }
-
 .news-about {
     font-size: 9px;
 }
@@ -3330,19 +3307,9 @@ li>div.show{
     top: 14px;
     left: 2px;
 }
-
-
-
-
-
-
-
-
 }
 @media screen and (max-width: 375px) {
-    .li-margin{
-        margin-left: 0px !important;
-    }
+  
     .social-icons-subscription{
         display: none !important;
     }
